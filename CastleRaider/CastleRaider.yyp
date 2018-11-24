@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "3e8f38ec-5e22-4946-b0d1-3442c2beffa2",
+            "Value": {
+                "id": "fd0bf6ef-5d83-4305-a5b7-a8edce5ea5bb",
+                "resourcePath": "tilesets\\t_collisions\\t_collisions.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "4401c390-2c6b-410c-b0ee-3618d83c495f",
             "Value": {
                 "id": "f683866d-1316-4394-ab7f-a69a9eaad5d2",
@@ -175,6 +183,14 @@
             }
         },
         {
+            "Key": "60fcd672-1b2a-4aae-acea-b47b8303c826",
+            "Value": {
+                "id": "c8f4630e-1bbc-49c6-9080-36eb11c24c91",
+                "resourcePath": "objects\\obj_game\\obj_game.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "68f4d2cd-337d-449b-951d-69bb8ee9a247",
             "Value": {
                 "id": "ad0840ff-a7b6-455d-a2a1-4f4376354ddb",
@@ -187,6 +203,14 @@
             "Value": {
                 "id": "ca2b0497-7b3a-4c3e-a3af-f58227dec419",
                 "resourcePath": "views\\6d072884-e430-42de-aa0b-28f717d972a4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "708c855e-821d-4390-9f38-ecaa57d95862",
+            "Value": {
+                "id": "5965965e-656e-4a0f-b24e-2f659c0cc73b",
+                "resourcePath": "views\\708c855e-821d-4390-9f38-ecaa57d95862.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -335,6 +359,22 @@
             }
         },
         {
+            "Key": "e6e96c35-e0b4-4004-8100-6be84502c413",
+            "Value": {
+                "id": "f2fdd7dd-2bab-4673-a1a2-e44a1cf5cee2",
+                "resourcePath": "scripts\\macros\\macros.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ecc172a5-1df1-4cb4-aa9e-b86dd6d0fa76",
+            "Value": {
+                "id": "3ef38939-52bf-4413-b7aa-0dd36842bf29",
+                "resourcePath": "sprites\\spr_tile_collisions\\spr_tile_collisions.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f2fa400a-2d16-4142-85a6-6554a3b2d20b",
             "Value": {
                 "id": "af6085dc-9a9a-4de5-ab4c-b41d6395ed10",
@@ -372,6 +412,7 @@
         "9f1569e4-f0f0-4210-a091-97f311e6dcac",
         "4401c390-2c6b-410c-b0ee-3618d83c495f",
         "f3acc66a-b65f-45cc-880b-b13ed444acde",
+        "e6e96c35-e0b4-4004-8100-6be84502c413",
         "147571ed-0626-4e39-9894-628d43fa48dc",
         "c9ab1e7e-61f4-4694-b738-3946a56dce7c",
         "19912932-e909-41fe-9d7e-72c8e4ade8ea",
