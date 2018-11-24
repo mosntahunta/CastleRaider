@@ -17,11 +17,19 @@ if( abs(horizontal_speed) <= 0.1 ) horizontal_speed = 0;
 if( horizontal_speed != 0.0 ) facing = sign(horizontal_speed);
 
 // limit the speed
-horizontal_speed = min( abs(horizontal_speed), max_horizontal_speed ) * facing;
+horizontal_speed = min(abs(horizontal_speed), max_horizontal_speed) * facing;
 
 // apply movement
 x += horizontal_speed;
 y += vertical_speed;
 
 // apply animation
-image_xscale = facing;
+if( horizontal_speed != 0 )
+{
+	image_xscale = facing;
+	sprite_index = spr_player_walk;
+}
+else
+{
+	sprite_index = spr_player_idle;
+}
