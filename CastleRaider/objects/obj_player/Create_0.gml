@@ -20,7 +20,32 @@ down  = 0;
 enum states
 {
 	IDLE,
-	WALK
+	WALK,
+	JUMP,
+	ATTACK,
+	BLOCK,
+	CROUCH,
+	CROUCH_BLOCK
 }
 
 state = states.IDLE;
+
+// states array 
+// [enum, script] mapping
+states_array[states.IDLE]			= player_idle_state;
+states_array[states.WALK]			= player_walk_state;
+states_array[states.JUMP]			= player_jump_state;
+states_array[states.ATTACK]			= player_attack_state;
+states_array[states.BLOCK]			= player_block_state;
+states_array[states.CROUCH]			= player_crouch_state;
+states_array[states.CROUCH_BLOCK]	= player_crouch_block_state;
+
+// sprites array 
+// [enum, sprites] mapping
+sprites_array[states.IDLE]			= spr_player_idle;
+sprites_array[states.WALK]			= spr_player_walk;
+sprites_array[states.JUMP]			= spr_player_jump;
+sprites_array[states.ATTACK]		= spr_player_attack;
+sprites_array[states.BLOCK]			= spr_player_block;
+sprites_array[states.CROUCH]		= spr_player_crouch;
+sprites_array[states.CROUCH_BLOCK]	= spr_player_crouch_block;
