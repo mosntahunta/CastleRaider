@@ -1,5 +1,6 @@
 ///< calculate movement
 horizontal_speed += (right - left) * walk_speed;
+vertical_speed += global.grav;
 
 // drag
 horizontal_speed = lerp(horizontal_speed, 0, drag);

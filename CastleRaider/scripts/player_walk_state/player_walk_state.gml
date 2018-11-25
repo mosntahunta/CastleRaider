@@ -17,6 +17,12 @@ if( attack )
 	image_index = 0;
 }
 
+if( jump )
+{
+	state = states.JUMP;
+	vertical_speed = jump_speed;
+}
+
 // apply movement
 collision();
 

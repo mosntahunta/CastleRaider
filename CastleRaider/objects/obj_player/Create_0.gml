@@ -3,6 +3,10 @@ horizontal_speed = 0;
 vertical_speed = 0;
 max_horizontal_speed = 2;
 walk_speed = 1.5;
+jump_speed = -5;
+
+hsp_decimal = 0;
+vsp_decimal = 0;
 
 ///< friction
 drag = .12;
@@ -15,8 +19,8 @@ left  = 0;
 right = 0;
 up	  = 0;
 down  = 0;
-
 attack = 0;
+jump = 0;
 
 // states
 enum states
