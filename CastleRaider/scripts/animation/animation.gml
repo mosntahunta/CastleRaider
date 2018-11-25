@@ -1,6 +1,7 @@
 // apply animation
 image_xscale = facing;
 sprite_index = sprites_array[state];
+mask_index = mask_array[state];
 
 switch(state) {
 	case states.JUMP:

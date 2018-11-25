@@ -37,6 +37,7 @@ var t1 = tilemap_get_at_pixel(global.map,side + horizontal_speed, bbox_top);
 var t2 = tilemap_get_at_pixel(global.map,side + horizontal_speed, bbox_bottom);
 
 // collision found
+// todo -> this collision is triggered when the player hits the ceiling.
 if (t1 != VOID || t2 != VOID) {
 	if(horizontal_speed > 0) {
 		x = x - (x mod global.tile_size) + global.tile_size - (side - x) - 1;

@@ -60,3 +60,13 @@ sprites_array[states.ATTACK]		= spr_player_attack;
 sprites_array[states.BLOCK]			= spr_player_block;
 sprites_array[states.CROUCH]		= spr_player_crouch;
 sprites_array[states.CROUCH_BLOCK]	= spr_player_crouch_block;
+
+// mask array 
+// [enum, sprites] mapping
+mask_array[states.IDLE]			= spr_player_idle;
+mask_array[states.WALK]			= spr_player_walk;
+mask_array[states.JUMP]			= spr_player_jump;
+mask_array[states.ATTACK]		= spr_player_attack;
+mask_array[states.BLOCK]		= spr_player_block;
+mask_array[states.CROUCH]		= spr_player_crouch;
+mask_array[states.CROUCH_BLOCK]	= spr_player_crouch;

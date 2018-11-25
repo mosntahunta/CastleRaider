@@ -28,6 +28,12 @@ if( block )
 	horizontal_speed = 0;
 }
 
+if( down )
+{
+	state = states.CROUCH;
+	horizontal_speed = 0;
+}
+
 // apply movement
 collision();
 
