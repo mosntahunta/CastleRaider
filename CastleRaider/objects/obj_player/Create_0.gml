@@ -4,6 +4,7 @@ vertical_speed = 0;
 max_horizontal_speed = 2;
 walk_speed = 1.5;
 jump_speed = -5;
+jump_dampner = 2.0;
 
 hsp_decimal = 0;
 vsp_decimal = 0;
@@ -21,6 +22,7 @@ up	  = 0;
 down  = 0;
 attack = 0;
 jump = 0;
+jump_held = 0;
 block = 0;
 
 // states

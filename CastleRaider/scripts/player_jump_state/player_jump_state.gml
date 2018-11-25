@@ -22,6 +22,11 @@ if( attack ) {
 	image_index = 0;
 }
 
+// enable smaller jumps
+if( vertical_speed < 0 && !jump_held ) {
+	vertical_speed = max(vertical_speed, vertical_speed/jump_dampner);
+}
+
 // apply movement
 collision();
 
