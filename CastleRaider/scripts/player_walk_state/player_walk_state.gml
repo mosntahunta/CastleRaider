@@ -23,6 +23,12 @@ if( jump )
 	vertical_speed = jump_speed;
 }
 
+if( block )
+{
+	state = states.BLOCK;
+	horizontal_speed = 0;
+}
+
 // apply movement
 collision();
 
