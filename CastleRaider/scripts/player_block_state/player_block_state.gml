@@ -25,10 +25,8 @@ if( block )
 	}
 }
 
-if( jump )
-{
-	state = states.JUMP;
-	vertical_speed = jump_speed;
+if( jump ) {
+	jumped();
 }
 
 // apply movement

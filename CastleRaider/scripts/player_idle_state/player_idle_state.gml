@@ -19,8 +19,7 @@ if( attack )
 
 if( jump )
 {
-	state = states.JUMP;
-	vertical_speed = jump_speed;
+	jumped();
 }
 
 if( block )

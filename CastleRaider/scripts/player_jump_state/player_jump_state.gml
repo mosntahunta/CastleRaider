@@ -15,11 +15,20 @@ if( on_ground() ) {
 	} else {
 		state = states.IDLE;
 	}
+	// create dust if landing
+	if( vertical_speed > 0 ) {
+		instance_create_layer(x, y, "Dust", obj_player_dust_land);
+	}
 }
 
 if( attack ) {
 	state = states.ATTACK;
 	image_index = 0;
+}
+
+// enable double jumps
+if( jump ) {
+	jumped();
 }
 
 // enable smaller jumps

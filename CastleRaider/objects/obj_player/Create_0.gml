@@ -4,7 +4,9 @@ vertical_speed = 0;
 max_horizontal_speed = 2;
 walk_speed = 1.5;
 jump_speed = -5;
-jump_dampner = 2.0;
+jump_dampner = 3.5;
+number_of_jumps_init = 2;
+number_of_jumps = number_of_jumps_init;
 
 hsp_decimal = 0;
 vsp_decimal = 0;
