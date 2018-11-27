@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "2066698f-3ac6-4d49-bf84-8dc3eed94d25",
+            "Value": {
+                "id": "4ca9cada-14e7-424c-88ba-ca3194a2ecdf",
+                "resourcePath": "sprites\\spr_tile_castle\\spr_tile_castle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "20fc0fff-0800-4dbe-9454-bafa0fed31e7",
             "Value": {
                 "id": "3597524a-0e78-4e3b-aba7-f9674eb6f100",
@@ -308,6 +316,14 @@
                 "id": "e7a45770-7703-45ef-b2ef-e177c2c8b3f8",
                 "resourcePath": "sprites\\spr_player_air_attack\\spr_player_air_attack.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9b81916b-6aeb-4909-b01f-b6cb682cffdb",
+            "Value": {
+                "id": "09e45c03-81a0-4776-94aa-c38c494f46cb",
+                "resourcePath": "tilesets\\t_tile_castle\\t_tile_castle.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
