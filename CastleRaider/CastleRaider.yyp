@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "3bc4fca4-dece-4d1d-8d7a-03c0175216fe",
+            "Value": {
+                "id": "c956817b-fd8e-47bb-a751-b1d1f1f656cc",
+                "resourcePath": "scripts\\frog_animation\\frog_animation.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3d566f3c-7160-4420-83f5-a82a4b5ca79b",
             "Value": {
                 "id": "725eaf09-f23a-4bfb-83dd-572413a39f4f",
@@ -199,6 +207,14 @@
             }
         },
         {
+            "Key": "49d602d8-bcb4-4ec3-aab6-d8918be2c28c",
+            "Value": {
+                "id": "d629f1c4-613f-41e2-83e4-e324b3670c2b",
+                "resourcePath": "views\\49d602d8-bcb4-4ec3-aab6-d8918be2c28c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "504a7356-7993-43f8-8d0b-52fbe0383472",
             "Value": {
                 "id": "43d17ff7-8778-4013-8b4b-12b44f335975",
@@ -231,6 +247,14 @@
             }
         },
         {
+            "Key": "5b617f43-026d-446a-b091-877b8079ad14",
+            "Value": {
+                "id": "0ff766e7-7c69-4894-ab4b-f8f209f2785d",
+                "resourcePath": "sprites\\spr_frog_idle\\spr_frog_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5d611ed8-6ab8-4b07-96dd-9d27a93dd365",
             "Value": {
                 "id": "11138a2c-bc3a-470a-a295-2bc6b8534efd",
@@ -252,6 +276,14 @@
                 "id": "2ea62060-07ce-457d-9162-30aaf686e950",
                 "resourcePath": "objects\\obj_player_dust_land\\obj_player_dust_land.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "675bac2e-5818-47b9-81f1-3be98ceac995",
+            "Value": {
+                "id": "686dc218-bc54-4a93-9edc-c770b45daed1",
+                "resourcePath": "scripts\\frog_idle_state\\frog_idle_state.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -292,6 +324,14 @@
                 "id": "5546b1ff-5b67-4541-81c3-b9616299302c",
                 "resourcePath": "sprites\\spr_player_dust_land\\spr_player_dust_land.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "77d438f2-6e3f-49df-92f0-da2744c2851d",
+            "Value": {
+                "id": "b8b0cda0-3454-4d22-b0de-53690f94a938",
+                "resourcePath": "objects\\obj_frog\\obj_frog.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -487,6 +527,14 @@
             }
         },
         {
+            "Key": "eea811d5-dbe7-40a2-8207-aa2ceac94c62",
+            "Value": {
+                "id": "5e907617-1ee7-4b35-840b-2eab35bdef48",
+                "resourcePath": "views\\eea811d5-dbe7-40a2-8207-aa2ceac94c62.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "f2fa400a-2d16-4142-85a6-6554a3b2d20b",
             "Value": {
                 "id": "af6085dc-9a9a-4de5-ab4c-b41d6395ed10",
@@ -535,7 +583,9 @@
         "17c05819-50b3-46f7-8a17-7149e57b2f43",
         "3d566f3c-7160-4420-83f5-a82a4b5ca79b",
         "e80ea2ca-2fe1-4cec-b8cf-a047dc3e1320",
-        "3f3688eb-b78f-4fa3-9467-71fa3c8db1f5"
+        "3f3688eb-b78f-4fa3-9467-71fa3c8db1f5",
+        "3bc4fca4-dece-4d1d-8d7a-03c0175216fe",
+        "675bac2e-5818-47b9-81f1-3be98ceac995"
     ],
     "tutorial": ""
 }
