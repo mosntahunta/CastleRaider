@@ -2,6 +2,9 @@
 // apply movement
 //
 
+if (horizontal_speed == 0) hsp_decimal = 0;
+if (vertical_speed == 0) vsp_decimal = 0;
+
 //
 // floor decimals
 //
@@ -38,7 +41,8 @@ var t2 = tilemap_get_at_pixel(global.map,side + horizontal_speed, bbox_bottom);
 
 // collision found
 // todo -> this collision is triggered when the player hits the ceiling.
-if (t1 != VOID || t2 != VOID) {
+if  ((t1 != VOID) and (t1 != PLATFORM)) or
+	((t2 != VOID) and (t2 != PLATFORM)) {
 	if(horizontal_speed > 0) {
 		x = x - (x mod global.tile_size) + global.tile_size - (side - x) - 1;
 	} else {
@@ -58,17 +62,33 @@ if (vertical_speed > 0) {
 }
 
 // check left and right side
-t1 = tilemap_get_at_pixel(global.map, bbox_left, side + vertical_speed);
-t2 = tilemap_get_at_pixel(global.map, bbox_right, side + vertical_speed);
+var t1 = tilemap_get_at_pixel(global.map, bbox_left, side + vertical_speed);
+var t2 = tilemap_get_at_pixel(global.map, bbox_right, side + vertical_speed);
+var t3 = tilemap_get_at_pixel(global.map, bbox_left, bbox_bottom);
+var t4 = tilemap_get_at_pixel(global.map, bbox_right, bbox_bottom);
 
 // collision found
-if (t1 != VOID || t2 != VOID) {
+if (t1 != VOID and ((vertical_speed > 0 or t1 != PLATFORM) and t3 != PLATFORM) or (t1 == SOLID and t3 == PLATFORM)) or
+   (t2 != VOID and ((vertical_speed > 0 or t2 != PLATFORM) and t4 != PLATFORM) or (t2 == SOLID and t4 == PLATFORM)) {
 	if(vertical_speed > 0) {
 		y = y - (y mod global.tile_size) + global.tile_size - 1 - (side - y);
 	} else {
 		y = y - (y mod global.tile_size) - (side - y);
 	}
+	show_debug_message("true");
+	show_debug_message(t1);
+	show_debug_message(t2);
+	show_debug_message(t3);
+	show_debug_message(t4);
 	vertical_speed = 0;
+}
+else
+{
+	show_debug_message("false");	
+	show_debug_message(t1);
+	show_debug_message(t2);
+	show_debug_message(t3);
+	show_debug_message(t4);
 }
 
 x += horizontal_speed;
