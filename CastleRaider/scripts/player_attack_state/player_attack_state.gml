@@ -18,6 +18,12 @@ if( image_index >= image_number - image_speed ) {
 	}
 }
 
+// create hitbox
+if( image_index >= 1 and image_index <= 3 ) {
+	var inst = instance_create_layer(x, y, "Player", obj_player_attack_hitbox);
+	inst.image_xscale = facing;
+}
+
 // enable double jumps
 if( jump ) {
 	jumped();
