@@ -12,7 +12,12 @@ facing = choose(-1, 1);
 
 // actions
 can_attack = true;
-attack_delay = room_speed;
+attack_delay = room_speed
+
+// inhale
+attack = false;
+inhale = false;
+inhale_timer = room_speed * 0.3;
 
 // breathing
 breath_timer_initial = random_range(room_speed * 1.75, room_speed * 2.25);

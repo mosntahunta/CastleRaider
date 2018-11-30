@@ -11,3 +11,4 @@
 
 // attack
 #macro CAN_ATTACK 0
+#macro INHALE 1
