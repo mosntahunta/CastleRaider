@@ -5,6 +5,11 @@
 // calculate movements
 
 // modify state
+if (image_index >= image_number - image_speed) {
+	state = frog_states.JUMP;
+	vertical_speed = jump_speed;
+}
+
 
 // apply movements
 collision();
