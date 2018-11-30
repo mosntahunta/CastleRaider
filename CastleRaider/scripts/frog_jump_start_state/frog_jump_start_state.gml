@@ -10,7 +10,6 @@ if (image_index >= image_number - image_speed) {
 	vertical_speed = jump_speed;
 }
 
-
 // apply movements
 collision();
 
