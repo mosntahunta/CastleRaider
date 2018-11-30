@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "5817f60e-4a3c-4731-92e6-c712fa203c87",
+            "Value": {
+                "id": "d88490dc-12dd-42d2-bd30-ffe0964fdc9a",
+                "resourcePath": "scripts\\frog_attack_state\\frog_attack_state.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "597134fa-9aa4-4aaa-8fb4-cc28412079a3",
             "Value": {
                 "id": "92b7533c-03ae-4e25-bd41-d8bdb9a67be9",
@@ -411,6 +419,14 @@
             "Value": {
                 "id": "e7a45770-7703-45ef-b2ef-e177c2c8b3f8",
                 "resourcePath": "sprites\\spr_player_air_attack\\spr_player_air_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "95910e5b-94e0-4947-815c-eff4e6421a68",
+            "Value": {
+                "id": "d796b391-a205-498b-b52a-b727abfab0f0",
+                "resourcePath": "sprites\\spr_frog_attack\\spr_frog_attack.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -658,6 +674,7 @@
         "3f3688eb-b78f-4fa3-9467-71fa3c8db1f5",
         "3bc4fca4-dece-4d1d-8d7a-03c0175216fe",
         "675bac2e-5818-47b9-81f1-3be98ceac995",
+        "5817f60e-4a3c-4731-92e6-c712fa203c87",
         "22990042-ee5e-4931-aab6-68f056895510",
         "2d221e3f-3f65-4a49-999e-40a8d80a8cf2",
         "4b7b9afb-7b3a-4181-8f05-4ef2b2b9f3e8",

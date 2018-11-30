@@ -10,6 +10,10 @@ vsp_decimal = 0;
 
 facing = choose(-1, 1);
 
+// actions
+can_attack = true;
+attack_delay = room_speed;
+
 // breathing
 breath_timer_initial = random_range(room_speed * 1.75, room_speed * 2.25);
 breath_timer = breath_timer_initial;
@@ -28,7 +32,8 @@ enum frog_states
 	IDLE,
 	JUMP_START,
 	JUMP,
-	JUMP_LAND
+	JUMP_LAND,
+	ATTACK
 }
 
 state = frog_states.IDLE;
@@ -37,8 +42,10 @@ states_array[frog_states.IDLE] = frog_idle_state;
 states_array[frog_states.JUMP_START] = frog_jump_start_state;
 states_array[frog_states.JUMP] = frog_jump_state;
 states_array[frog_states.JUMP_LAND] = frog_land_state;
+states_array[frog_states.ATTACK] = frog_attack_state;
 
 sprites_array[frog_states.IDLE] = spr_frog_idle;
 sprites_array[frog_states.JUMP_START] = spr_frog_jump_start;
 sprites_array[frog_states.JUMP] = spr_frog_jump;
 sprites_array[frog_states.JUMP_LAND] = spr_frog_jump_land;
+sprites_array[frog_states.ATTACK] = spr_frog_attack;
