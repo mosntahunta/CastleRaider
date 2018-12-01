@@ -18,4 +18,10 @@ switch(state) {
 			}
 		}	
 	break;
+	case states.HURTING:
+		if (!on_ground()) {
+			sprite_index = spr_player_jump;
+			if (vertical_speed < 0) image_index = 0; else image_index = 1;
+		}
+	break;
 }

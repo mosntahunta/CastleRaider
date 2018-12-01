@@ -45,7 +45,8 @@ enum states
 	ATTACK,
 	BLOCK,
 	CROUCH,
-	CROUCH_BLOCK
+	CROUCH_BLOCK,
+	HURTING
 }
 
 state = states.IDLE;
@@ -59,6 +60,7 @@ states_array[states.ATTACK]			= player_attack_state;
 states_array[states.BLOCK]			= player_block_state;
 states_array[states.CROUCH]			= player_crouch_state;
 states_array[states.CROUCH_BLOCK]	= player_crouch_block_state;
+states_array[states.HURTING]		= player_hurting_state;
 
 // sprites array 
 // [enum, sprites] mapping
@@ -69,6 +71,7 @@ sprites_array[states.ATTACK]		= spr_player_attack;
 sprites_array[states.BLOCK]			= spr_player_block;
 sprites_array[states.CROUCH]		= spr_player_crouch;
 sprites_array[states.CROUCH_BLOCK]	= spr_player_crouch_block;
+sprites_array[states.HURTING]		= spr_player_hurting;
 
 // mask array 
 // [enum, sprites] mapping
@@ -79,3 +82,4 @@ mask_array[states.ATTACK]		= spr_player_attack;
 mask_array[states.BLOCK]		= spr_player_block;
 mask_array[states.CROUCH]		= spr_player_crouch;
 mask_array[states.CROUCH_BLOCK]	= spr_player_crouch;
+mask_array[states.HURTING]		= spr_player_idle;

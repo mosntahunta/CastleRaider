@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "32bd99d2-23e8-457e-b249-4c589f0bb00e",
+            "Value": {
+                "id": "fc232190-6215-43c1-9243-9579a01e621c",
+                "resourcePath": "sprites\\spr_player_hurting\\spr_player_hurting.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "397cf443-1b9d-49e3-9e6a-7a53c1d6b773",
             "Value": {
                 "id": "91ce7479-1b35-41bc-bee9-30911f8760b6",
@@ -428,6 +436,14 @@
                 "id": "b8b0cda0-3454-4d22-b0de-53690f94a938",
                 "resourcePath": "objects\\obj_frog\\obj_frog.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7bb070ed-1537-457a-88f1-261b4d539d66",
+            "Value": {
+                "id": "2a4fe7d6-2986-4674-8301-ab123a3d9af7",
+                "resourcePath": "scripts\\player_hurting_state\\player_hurting_state.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -743,6 +759,7 @@
         "e6e96c35-e0b4-4004-8100-6be84502c413",
         "cf8c8a4b-5e80-47d0-834d-0a51d848fa3c",
         "147571ed-0626-4e39-9894-628d43fa48dc",
+        "7bb070ed-1537-457a-88f1-261b4d539d66",
         "c9ab1e7e-61f4-4694-b738-3946a56dce7c",
         "19912932-e909-41fe-9d7e-72c8e4ade8ea",
         "cd683301-f69a-469a-b65d-46df3316bb5a",

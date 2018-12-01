@@ -1,9 +1,9 @@
-// cycle through all the enemies and see if they were hit
+// cycle through all the players and see if they were hit
 with (instance_place(x, y, obj_player)) {
 	if (!hurt) {
 		hurt = true;
 		
-		// face the enmy
+		// face the enemy
 		facing = sign(other.x - x);
 		
 		if (facing == 0) {
@@ -21,6 +21,9 @@ with (instance_place(x, y, obj_player)) {
 			
 		alarm[HURT] = hurt_time;
 		
+		// change state
+		state = states.HURTING;
+		image_index = 0;
 	}
 }
 
