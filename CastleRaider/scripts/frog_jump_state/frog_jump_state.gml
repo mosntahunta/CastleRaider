@@ -3,8 +3,10 @@
 // get inputs
 
 // calculate movements
+calculate_entity_movement();
+
+// horizontal movement
 horizontal_speed += spd * facing;
-vertical_speed += global.grav;
 
 // limit speed
 horizontal_speed = min(abs(horizontal_speed), max_horizontal_speed) * facing;

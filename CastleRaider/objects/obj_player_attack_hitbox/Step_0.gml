@@ -12,7 +12,11 @@ with (obj_enemy_parent) {
 				if (_direction == 0) {
 					_direction = 1;
 				}
-			
+				
+				// move away from the hitbox
+				var knockback_distance = 3;
+				horizontal_speed = _direction * knockback_distance;
+				
 				// face the hitbox if onground
 				if (on_ground()) {
 					facing = - _direction;

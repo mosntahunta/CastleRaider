@@ -3,6 +3,7 @@
 // get inputs
 
 // calculate movements
+calculate_entity_movement();
 
 // set the tongue depth
 

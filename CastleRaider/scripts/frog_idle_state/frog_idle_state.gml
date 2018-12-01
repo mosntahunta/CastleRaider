@@ -4,6 +4,7 @@ breathing();
 // get inputs
 
 // calculate movements
+calculate_entity_movement();
 
 // modify state
 // attack

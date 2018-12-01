@@ -3,6 +3,7 @@
 // get inputs
 
 // calculate movements
+calculate_entity_movement();
 
 // modify state
 if (image_index >= image_number - image_speed) {
