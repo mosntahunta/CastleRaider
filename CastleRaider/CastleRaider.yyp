@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "28fdd16e-7f5b-4607-ad23-21ab5572882d",
+            "Value": {
+                "id": "ef7a80ad-dd34-4ac8-b238-652f946955cc",
+                "resourcePath": "objects\\obj_frog_attack_hitbox\\obj_frog_attack_hitbox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2bd09848-665b-45b1-aa72-3dac34d135ef",
             "Value": {
                 "id": "363e8a31-881a-4cbc-8069-517d9c8ef907",
@@ -276,6 +284,14 @@
                 "id": "2e826657-8977-45bf-b754-878e68329820",
                 "resourcePath": "scripts\\frog_land_state\\frog_land_state.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "4f2b1260-8452-4e61-b5bb-2a961260363e",
+            "Value": {
+                "id": "3015eb6c-96a0-43ba-b65d-25c658324d77",
+                "resourcePath": "sprites\\spr_frog_attack_hitbox\\spr_frog_attack_hitbox.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

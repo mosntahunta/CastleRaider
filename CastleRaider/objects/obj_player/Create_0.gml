@@ -17,6 +17,12 @@ drag = .12;
 ///< facing direction
 facing = 1; // 1 is right, -1 is left
 
+// hurt
+flash_counter = 0;
+hurt = false;
+hurt_time = room_speed;
+hp = 5;
+
 // movement
 left  = 0;
 right = 0;

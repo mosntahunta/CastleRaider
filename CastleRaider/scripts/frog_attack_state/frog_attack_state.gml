@@ -17,6 +17,14 @@ if (image_index == 2 and !inhale) {
 }
 
 if (attack) {
+	if (image_index >= 5 and image_index <= 6) {
+		// create the hitbox
+		var inst = instance_create_layer(x, y, "Enemy", obj_frog_attack_hitbox);
+		// ensure the hitbox faces the way the frog that created it is facing
+		inst.image_xscale = facing;
+	}
+	
+	// set tongue depth
 	depth = layer_get_depth(layer_get_id("Player")) - 1;
 	
 	if (image_index >= image_number - image_speed) {

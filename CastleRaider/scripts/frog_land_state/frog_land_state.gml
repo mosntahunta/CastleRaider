@@ -1,4 +1,4 @@
-// frog idle state
+// frog land state
 
 // get inputs
 
