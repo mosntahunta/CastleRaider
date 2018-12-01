@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "18abe7d5-ef94-443c-baee-13f6d52ee551",
+            "Value": {
+                "id": "46ac8941-b414-4e45-8756-3dc7d2bbfdda",
+                "resourcePath": "sprites\\spr_sword_hit2\\spr_sword_hit2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "19912932-e909-41fe-9d7e-72c8e4ade8ea",
             "Value": {
                 "id": "4e5dfc3b-6df8-4814-a65b-7935250802a2",
@@ -132,6 +140,14 @@
                 "id": "31108f74-fbf1-4fc9-8c7d-807b701392b0",
                 "resourcePath": "views\\22a2a5ef-8eb6-4e86-afc9-6b9ce3e19c9b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2bd09848-665b-45b1-aa72-3dac34d135ef",
+            "Value": {
+                "id": "363e8a31-881a-4cbc-8069-517d9c8ef907",
+                "resourcePath": "sprites\\spr_sword_hit\\spr_sword_hit.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -212,6 +228,14 @@
                 "id": "a55a890b-15a2-483e-b24e-168694cab74a",
                 "resourcePath": "scripts\\block_check\\block_check.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "3fccb8b4-f0e2-4681-9667-39e9bd74e5a3",
+            "Value": {
+                "id": "5b21a08a-bad7-4857-879a-ca2940eef05a",
+                "resourcePath": "objects\\obj_sword_hit\\obj_sword_hit.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -479,6 +503,14 @@
             }
         },
         {
+            "Key": "ac691bee-bfc2-49b1-beb9-a3a616f2c740",
+            "Value": {
+                "id": "1fdc9c68-9ad5-41f3-a5be-716edbd201ae",
+                "resourcePath": "objects\\obj_enemy_parent\\obj_enemy_parent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b04a56a4-e305-424b-996b-e6d6c38af2e2",
             "Value": {
                 "id": "58e8b009-6b65-46fc-9f19-1ab58cf6c0a5",
@@ -556,6 +588,14 @@
                 "id": "9bea58a2-ed08-4754-8236-091cc8d3695b",
                 "resourcePath": "scripts\\player_crouch_state\\player_crouch_state.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ce4359a9-10b8-4fc7-9d91-75bfa8d458e9",
+            "Value": {
+                "id": "037ea70e-355f-4116-93e1-ce7e9f72fd0b",
+                "resourcePath": "views\\ce4359a9-10b8-4fc7-9d91-75bfa8d458e9.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

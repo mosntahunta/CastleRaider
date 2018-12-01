@@ -1,3 +1,5 @@
+event_inherited();
+
 horizontal_speed = 0;
 max_hsp_initial = 2;
 max_horizontal_speed = max_hsp_initial;

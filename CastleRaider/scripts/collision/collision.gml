@@ -75,20 +75,7 @@ if (t1 != VOID and ((vertical_speed > 0 or t1 != PLATFORM) and t3 != PLATFORM) o
 	} else {
 		y = y - (y mod global.tile_size) - (side - y);
 	}
-	show_debug_message("true");
-	show_debug_message(t1);
-	show_debug_message(t2);
-	show_debug_message(t3);
-	show_debug_message(t4);
 	vertical_speed = 0;
-}
-else
-{
-	show_debug_message("false");	
-	show_debug_message(t1);
-	show_debug_message(t2);
-	show_debug_message(t3);
-	show_debug_message(t4);
 }
 
 x += horizontal_speed;
