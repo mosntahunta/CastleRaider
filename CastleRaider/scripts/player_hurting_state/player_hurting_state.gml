@@ -1,5 +1,5 @@
 ///
-/// player idle state
+/// player hurting state
 ///
 
 // key input
