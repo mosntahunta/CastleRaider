@@ -1,5 +1,8 @@
 // frog idle state
 
+// check health
+check_enemy_hp();
+
 // get inputs
 
 // calculate movements
