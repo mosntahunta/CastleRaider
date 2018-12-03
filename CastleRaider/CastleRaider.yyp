@@ -479,6 +479,14 @@
             }
         },
         {
+            "Key": "74361f63-cc0f-4ddf-8366-bae17bf44761",
+            "Value": {
+                "id": "a84fedd7-14ba-4a3b-ac7f-2fccea4b70b2",
+                "resourcePath": "objects\\obj_spark\\obj_spark.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "764a2943-3c0a-40dd-996f-592277fc1adb",
             "Value": {
                 "id": "9a898c36-4546-43c3-b109-7d2dc07467f4",
