@@ -13,3 +13,7 @@ if( horizontal_speed != 0.0 ) facing = sign(horizontal_speed);
 
 // limit the speed
 horizontal_speed = min(abs(horizontal_speed), max_horizontal_speed) * facing;
+
+// stop stretch
+scale_x = lerp(scale_x, 1, scale_decay);
+scale_y = lerp(scale_y, 1, scale_decay);

@@ -7,6 +7,9 @@ if (on_ground()) {
 }
 
 if (number_of_jumps > 0) {
+	scale_x = scale_min;
+	scale_y = scale_max;
+	
 	state = states.JUMP;
 	vertical_speed = jump_speed;
 	number_of_jumps--;

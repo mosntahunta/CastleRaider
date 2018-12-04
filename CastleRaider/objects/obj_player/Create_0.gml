@@ -14,6 +14,15 @@ vsp_decimal = 0;
 ///< friction
 drag = .12;
 
+///< stretching
+scale_x = 1;
+scale_y = 1;
+
+scale_min = 0.75;
+scale_max = 1.25;
+
+scale_decay = 0.2;
+
 ///< facing direction
 facing = 1; // 1 is right, -1 is left
 

@@ -1,8 +1,3 @@
-// You can write your code in this editor
-draw_self();
-
-draw_text(x, y, hp);
-
 // flash red when taking damage
 if (hurt) {
 	flash_counter++;
@@ -22,5 +17,5 @@ if (hurt) {
 		}
 	}
 } else {
-	draw_self();
+	draw_sprite_ext(sprite_index, image_index, x, y, image_xscale * scale_x, image_yscale * scale_y, image_angle, c_white, image_alpha);
 }

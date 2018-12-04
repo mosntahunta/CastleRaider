@@ -10,6 +10,10 @@ calculate_movement();
 
 // check if we can move out of the state
 if( on_ground() ) {
+	// apply stretch
+	scale_x = scale_max;
+	scale_y = scale_min;
+	
 	if( horizontal_speed != 0 ) {
 		state = states.WALK;
 	} else {
