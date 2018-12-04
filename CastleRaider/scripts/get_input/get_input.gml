@@ -10,6 +10,7 @@ attack		= keyboard_check_pressed(vk_shift);
 jump		= keyboard_check_pressed(vk_space);
 jump_held   = keyboard_check(vk_space);
 block		= keyboard_check(ord("Z"));
+action		= keyboard_check(ord("X"));
 
 // controller input
 // todo - debug the values to learn how to configure them for different controllers
@@ -26,4 +27,5 @@ if (gamepad_is_connected(_dev)) {
 	jump = gamepad_button_check_pressed(_dev, gp_face1) or jump;
 	jump_held = gamepad_button_check(_dev, gp_face1) or jump_held;
 	block = gamepad_button_check(_dev, gp_shoulderrb) or block;
+	action = gamepad_button_check(_dev, gp_face3) or action;
 }

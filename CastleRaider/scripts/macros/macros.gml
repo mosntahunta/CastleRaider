@@ -13,3 +13,6 @@
 #macro CAN_ATTACK 0
 #macro INHALE 1
 #macro HURT 2
+
+// chest
+#macro OPEN 0
