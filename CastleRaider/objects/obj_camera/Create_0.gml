@@ -18,5 +18,10 @@ camera_pan_speed = camera_pan_speed_initial;
 // reset the camera to default pan speed
 alarm[CAMERA_RESET] = 3;
 
+// screen shake
+screen_shake = false;
+screen_shake_amount_initial = 3; // pixels the screen will move
+screen_shake_amount = screen_shake_amount_initial;
+
 // move onto the main room
 room_goto_next();

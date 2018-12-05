@@ -26,6 +26,8 @@ with (obj_enemy_parent) {
 			
 				alarm[HURT] = hurt_time;
 				
+				scr_screen_shake(.1, 1.5);
+				
 				var create = true;
 				
 				if (instance_exists(obj_sword_hit)) {

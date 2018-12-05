@@ -39,6 +39,8 @@ if (obj_player.hp > 0 and !hurt) {
 		// change state
 		state = states.HURTING;
 		image_index = 0;
+		
+		scr_screen_shake(.125, -1);
 	} else {
 		// blocking damage
 		if (state != states.KNOCKBACK) {
@@ -51,6 +53,8 @@ if (obj_player.hp > 0 and !hurt) {
 			
 			// move the object back when hit
 			horizontal_speed = sign(x - other.x) * block_knockback;
+			
+			scr_screen_shake(.125, -1);
 		}
 	}
 }
