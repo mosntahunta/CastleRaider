@@ -23,10 +23,16 @@ scale_max = 1.25;
 
 scale_decay = 0.2;
 
-///< facing direction
-facing = 1; // 1 is right, -1 is left
-
 gems = 0;
+
+///< set room 0 start position
+room_start_position_x = 65;
+room_start_position_y = 127;
+room_start_facing = 1; // to the right
+
+x = room_start_position_x;
+y = room_start_position_y;
+facing = room_start_facing;
 
 // hurt
 flash_counter = 0;
