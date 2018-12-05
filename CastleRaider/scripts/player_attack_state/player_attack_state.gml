@@ -38,5 +38,8 @@ if( vertical_speed < 0 && !jump_held ) {
 // apply movement
 collision();
 
+// check player's hp
+check_player_hp();
+
 // apply animation
 animation();

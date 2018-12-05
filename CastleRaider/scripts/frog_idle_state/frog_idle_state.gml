@@ -18,15 +18,17 @@ var player_alert = false; // player is infront and in range but the attack is no
 // player is within the distance, facing the player
 // and can attack, then we can attack
 if (distance_to_object(obj_player) < detect_player_dis and sign(obj_player.x - x) == facing) {
-	if (can_attack) {
-		// attack
-		can_attack = false;
-		state = frog_states.ATTACK;
+	if (obj_player.hp > 0) {
+		if (can_attack) {
+			// attack
+			can_attack = false;
+			state = frog_states.ATTACK;
 	
-		image_index = 0;
-		image_speed = 1;
+			image_index = 0;
+			image_speed = 1;
+		}
+		player_alert = true;
 	}
-	player_alert = true;
 }
 
 if (jump_timer < 0 and !player_alert) {

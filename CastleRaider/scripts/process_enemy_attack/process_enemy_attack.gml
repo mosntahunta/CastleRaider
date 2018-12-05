@@ -15,7 +15,7 @@ if (block_knockback == -1) {
 	block_knockback = 2.5;
 }
 
-if (!hurt) {
+if (obj_player.hp > 0 and !hurt) {
 	if (!block or (block and sign(x - other.x) == facing) ) {
 		hurt = true;
 		

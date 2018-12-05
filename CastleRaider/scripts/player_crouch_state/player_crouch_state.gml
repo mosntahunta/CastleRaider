@@ -24,5 +24,8 @@ if( jump )
 // apply movement
 collision();
 
+// check player's hp
+check_player_hp();
+
 // apply animation
 animation();
