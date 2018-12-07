@@ -18,3 +18,9 @@ bounce = false;
 
 // can player pick up this yet
 can_pickup = false;
+
+// enable light
+var inst = instance_create_layer(x, y, "Light", obj_light);
+light_id = inst.id;
+inst.type = 4;
+inst.colour_index = image_index;

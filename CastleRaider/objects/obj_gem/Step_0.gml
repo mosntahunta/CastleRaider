@@ -65,3 +65,9 @@ if (die) {
 
 // collision
 collision();
+
+// update the light's position
+with(light_id) {
+	x = other.x;
+	y = other.y;
+}

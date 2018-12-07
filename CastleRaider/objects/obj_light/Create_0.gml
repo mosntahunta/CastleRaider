@@ -12,3 +12,7 @@ circle = true;
 // 2 chest
 // 3 water
 type = 0;
+
+flickering = true;
+
+colour_index = 0;
