@@ -2,6 +2,12 @@
 horizontal_speed = spd * facing;
 image_xscale = sign(horizontal_speed);
 
+// stop if dead
+if die {
+	horizontal_speed = 0;
+}
+	
+
 // destroy at wall if moved more than 1 tile
 if abs(xstart - x) > global.tile_size {
 	if sign(horizontal_speed) var side = bbox_right else var side = bbox_left;

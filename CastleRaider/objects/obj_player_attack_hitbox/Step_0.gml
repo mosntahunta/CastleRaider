@@ -52,5 +52,9 @@ with (obj_enemy_parent) {
 	}
 }
 
+// destroy arrows that are hit by the attack
+var inst = instance_place(x, y, obj_arrow);
+if inst != noone inst.die = true;
+
 // enable death at beginstep
 die = true;

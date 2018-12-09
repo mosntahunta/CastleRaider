@@ -1,1 +1,0 @@
-patrol_distance = 320;

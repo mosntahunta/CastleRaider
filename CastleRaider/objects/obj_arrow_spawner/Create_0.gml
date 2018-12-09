@@ -1,5 +1,5 @@
 // init
-can_fire = false;
+can_fire = true;
 fire_delay_init = room_speed * 4;
 fire_delay = fire_delay_init;
 facing = -1;
