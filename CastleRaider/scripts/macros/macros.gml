@@ -24,6 +24,8 @@
 // chest
 #macro OPEN 0
 
+// arrow spawner
 #macro FIRE 0
 
+// arrow
 #macro LAYER_CHANGE 0

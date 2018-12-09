@@ -9,3 +9,6 @@ image_speed = 0;
 
 // destroy_object
 die = false;
+
+// change the object's layer after set time
+alarm[LAYER_CHANGE] = room_speed / 7;

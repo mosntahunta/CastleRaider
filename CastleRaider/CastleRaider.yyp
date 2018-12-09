@@ -567,6 +567,22 @@
             }
         },
         {
+            "Key": "7832e638-d47d-4fe4-8cd9-ba3943a3b4d9",
+            "Value": {
+                "id": "7358800f-e498-4588-add5-0f234833d2a9",
+                "resourcePath": "sprites\\spr_arrow_spark\\spr_arrow_spark.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7a78ef2a-41d6-4cfb-89d0-39c5b61c4330",
+            "Value": {
+                "id": "1fc058c1-eec8-4f90-8a9f-fc7bb457ff52",
+                "resourcePath": "objects\\obj_arrow_spark\\obj_arrow_spark.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7bb070ed-1537-457a-88f1-261b4d539d66",
             "Value": {
                 "id": "2a4fe7d6-2986-4674-8301-ab123a3d9af7",

@@ -13,6 +13,10 @@ if on_screen(global.tile_size) {
 		// spawn the arrow
 		var inst = instance_create_layer(x, y + ypos, "arrow_shoot", obj_arrow);
 		inst.facing = facing;
+		
+		if facing var side = bbox_right else var side = bbox_left;
+		var inst = instance_create_layer(side, y + ypos, "arrow_shoot", obj_arrow_spark);
+		inst.image_xscale = facing;
 	} else {
 		fire_delay--;
 		if fire_delay <= 0 {
