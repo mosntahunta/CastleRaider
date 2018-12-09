@@ -41,6 +41,10 @@ hurt_time = room_speed;
 hp = 5;
 max_hp = hp;
 
+// how long enemies get knocked back when hit
+knockback_time = room_speed / 2;
+knockback_distance = 1.5;
+
 // movement
 left  = 0;
 right = 0;

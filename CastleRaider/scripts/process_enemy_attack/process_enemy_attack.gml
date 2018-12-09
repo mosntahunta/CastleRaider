@@ -55,6 +55,19 @@ if (obj_player.hp > 0 and !hurt) {
 			horizontal_speed = sign(x - other.x) * block_knockback;
 			
 			scr_screen_shake(.125, -1);
+			
+			// enemy gets knocked back to
+			
+			with(other) {
+				if object_index == obj_bug {
+					// zero decimal to get exact movement
+					hsp_decimal = 0;
+					// knock back the enemy away from the player
+					horizontal_speed = sign(x - obj_player.x) * other.knockback_distance;
+					alarm[KNOCKEDBACK] = other.knockback_time;
+				}
+			}
+					
 		}
 	}
 }
