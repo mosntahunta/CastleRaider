@@ -29,3 +29,14 @@ yy = 25;
 draw_sprite(spr_hp_bar, 1, xx, yy);
 draw_sprite_ext(spr_hp_bar, 2, xx, yy, obj_player.hp / obj_player.max_hp, 1, 0, c_white, image_alpha);
 draw_sprite(spr_hp_bar, 0, xx, yy);
+
+// lives
+xx = 48;
+yy = 32;
+var gap = 22;
+if lives > 0 {
+	// draw number of lives
+	for (var i = 0; i < lives; i++) {
+		draw_sprite(spr_lives, 0, xx + i * gap, yy);
+	}
+}

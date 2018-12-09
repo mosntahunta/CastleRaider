@@ -19,7 +19,11 @@ if (image_index >= image_number - 1) {
 	image_speed = 0;
 	get_input();
 	if jump or attack {
-		room_restart();
+		if lives <= 0 {
+			game_restart();
+		} else {
+			room_restart();
+		}
 		// reset player
 		x = room_start_position_x;
 		y = room_start_position_y;

@@ -45,6 +45,10 @@ max_hp = hp;
 knockback_time = room_speed / 2;
 knockback_distance = 1.5;
 
+// lives
+lives_init = 3;
+lives = lives_init;
+
 // movement
 left  = 0;
 right = 0;
