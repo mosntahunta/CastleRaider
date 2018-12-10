@@ -24,6 +24,7 @@ scale_max = 1.25;
 scale_decay = 0.2;
 
 gems = 0;
+gems_value = 50;
 
 ///< set room 0 start position
 room_start_position_x = 65;
@@ -48,6 +49,7 @@ knockback_distance = 1.5;
 // lives
 lives_init = 3;
 lives = lives_init;
+lives_value = 1000;
 
 // movement
 left  = 0;

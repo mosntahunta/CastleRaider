@@ -8,6 +8,14 @@ if mouse_check_button_pressed(mb_left) {
 }
 
 if mouse_check_button_pressed(mb_right) {
-	instance_create_layer(mouse_x, mouse_y, "Gems", obj_arrow);
+	obj_player.hp = 0;
 }
 
+if game_over_lose {
+	with(obj_player) {
+		get_input();
+		if jump or attack {
+			game_restart();
+		}
+	}
+}

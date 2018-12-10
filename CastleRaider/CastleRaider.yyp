@@ -471,6 +471,14 @@
             }
         },
         {
+            "Key": "5ec22f06-3c07-41a0-a39f-5ffc9ea26628",
+            "Value": {
+                "id": "f41ab856-d9d6-4c8b-b0ef-fde4dabc0bc3",
+                "resourcePath": "objects\\obj_hp\\obj_hp.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "60fcd672-1b2a-4aae-acea-b47b8303c826",
             "Value": {
                 "id": "c8f4630e-1bbc-49c6-9080-36eb11c24c91",
@@ -639,6 +647,14 @@
             }
         },
         {
+            "Key": "89a533cf-325f-4cf1-a440-7be148812c9e",
+            "Value": {
+                "id": "f65329cc-1098-4b1c-9044-d0d052b5bb5b",
+                "resourcePath": "sprites\\spr_hp\\spr_hp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8beffc0b-552c-4dea-8668-30d79586d3d0",
             "Value": {
                 "id": "d4080a2b-e12d-4ce1-8084-1882daf18eac",
@@ -799,6 +815,14 @@
             }
         },
         {
+            "Key": "bbd9ee24-da17-4544-9823-1e1f1098e89c",
+            "Value": {
+                "id": "317b8335-b998-4526-aec0-a44cddd2e04e",
+                "resourcePath": "sprites\\spr_game_over_text\\spr_game_over_text.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "be7e9fc3-a8bc-4c9f-ba6d-04108495ffed",
             "Value": {
                 "id": "6bf056a3-18d6-4214-be19-245b2a770d3e",
@@ -895,6 +919,14 @@
             }
         },
         {
+            "Key": "d1649402-fa56-4497-8a83-b56e2697aa06",
+            "Value": {
+                "id": "9eb817a6-1cbf-4c68-ba6e-8e138529e669",
+                "resourcePath": "sprites\\spr_score\\spr_score.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d6654755-ba4e-4365-af8c-9721ed995132",
             "Value": {
                 "id": "59e9808d-95f8-4106-b1dd-5a709c0d4cbc",
@@ -939,6 +971,14 @@
             "Value": {
                 "id": "5ebdae7e-01eb-472e-a5ef-22687086264c",
                 "resourcePath": "sprites\\spr_player_dust_jump\\spr_player_dust_jump.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e3068497-7ff9-441c-858e-af88d501edd0",
+            "Value": {
+                "id": "ee212207-8389-4ab9-8b06-80a539f09b2a",
+                "resourcePath": "sprites\\spr_game_over\\spr_game_over.yy",
                 "resourceType": "GMSprite"
             }
         },

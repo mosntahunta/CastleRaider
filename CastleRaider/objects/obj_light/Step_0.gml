@@ -40,5 +40,12 @@ if (colour == c_black) {
 				case 4: colour = c_red; break;
 			}
 		break;	
+		case 5:
+		// hp
+			intensity = .3;
+			radius = 18;
+			colour = c_white;
+			flickering = false;
+		break;
 	}
 }
