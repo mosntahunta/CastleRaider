@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "38bd1a02-d92c-4adc-8403-f9971ae17cd2",
+            "Value": {
+                "id": "3b45c8d6-415e-4cc3-b413-af1abb33b713",
+                "resourcePath": "views\\38bd1a02-d92c-4adc-8403-f9971ae17cd2.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "397cf443-1b9d-49e3-9e6a-7a53c1d6b773",
             "Value": {
                 "id": "91ce7479-1b35-41bc-bee9-30911f8760b6",
@@ -516,6 +524,22 @@
                 "id": "ad0840ff-a7b6-455d-a2a1-4f4376354ddb",
                 "resourcePath": "sprites\\spr_player_attack\\spr_player_attack.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6b9dfe3d-1dda-43d5-ab9f-57733ec19474",
+            "Value": {
+                "id": "5d4ab5de-2230-4faa-bf6b-36e1c851b9a9",
+                "resourcePath": "scripts\\fade_to_room\\fade_to_room.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6c33b0dc-5579-4c3d-9328-d79f82bdb6ec",
+            "Value": {
+                "id": "76e732d8-9834-4602-870b-7ac0cd58304d",
+                "resourcePath": "objects\\obj_fade\\obj_fade.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1139,7 +1163,8 @@
         "33e98fb5-65ad-4af1-85ca-d4215fabd400",
         "6cc5c817-2d47-4693-98c5-c934b24ebc9e",
         "07b0380f-6eb4-41b6-9cd9-e74c79448e50",
-        "9dcb6c8e-4b40-4f4a-9978-ef60cc55154a"
+        "9dcb6c8e-4b40-4f4a-9978-ef60cc55154a",
+        "6b9dfe3d-1dda-43d5-ab9f-57733ec19474"
     ],
     "tutorial": ""
 }
