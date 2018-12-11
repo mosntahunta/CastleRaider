@@ -31,6 +31,22 @@
     },
     "resources": [
         {
+            "Key": "0137ac34-2a49-4eb8-9e47-f95f091d37ac",
+            "Value": {
+                "id": "9149db9c-9773-454c-a334-9db554e1b8b9",
+                "resourcePath": "scripts\\EaseOutCirc\\EaseOutCirc.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "068647b8-f16c-4106-8ea3-266a6affaee9",
+            "Value": {
+                "id": "53be5b63-f4a2-42d0-a778-edeb16e86437",
+                "resourcePath": "views\\068647b8-f16c-4106-8ea3-266a6affaee9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "06df84ad-a6e2-4d40-a376-943e7ae05e18",
             "Value": {
                 "id": "e70dfa38-1e42-4404-86ef-f6ed9fbb1ca0",
@@ -71,6 +87,14 @@
             }
         },
         {
+            "Key": "0aeec755-5615-4e21-b4c4-4a3c120e8fc6",
+            "Value": {
+                "id": "4593d070-c7fd-4375-92a6-4f122565ada8",
+                "resourcePath": "scripts\\EaseInOutSine\\EaseInOutSine.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0af2577f-4abc-46c1-89b7-9d944b3aacb6",
             "Value": {
                 "id": "8f9e1b09-96b4-43cc-8001-fb56c90fd375",
@@ -84,6 +108,14 @@
                 "id": "988a3e48-cadc-4267-9a3f-69c421ef89a2",
                 "resourcePath": "objects\\obj_player_dust_jump\\obj_player_dust_jump.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "120f3c77-6953-4743-b088-6c8103abbda6",
+            "Value": {
+                "id": "ed631174-febf-4a9d-8972-556b7c5b378c",
+                "resourcePath": "scripts\\EaseInSine\\EaseInSine.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -143,6 +175,22 @@
             }
         },
         {
+            "Key": "1ad6ee79-1553-4c99-ae52-4ef628449f78",
+            "Value": {
+                "id": "bb4742c2-7b0d-4e41-a192-d0543f9cf7f8",
+                "resourcePath": "scripts\\EaseLinear\\EaseLinear.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "1c0abb98-0c53-4647-b2a3-23927d9ee4fa",
+            "Value": {
+                "id": "6d22b6e6-bd5d-4c71-ac39-780691f4f67e",
+                "resourcePath": "scripts\\EaseOutSine\\EaseOutSine.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2066698f-3ac6-4d49-bf84-8dc3eed94d25",
             "Value": {
                 "id": "4ca9cada-14e7-424c-88ba-ca3194a2ecdf",
@@ -156,6 +204,14 @@
                 "id": "3597524a-0e78-4e3b-aba7-f9674eb6f100",
                 "resourcePath": "views\\20fc0fff-0800-4dbe-9454-bafa0fed31e7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "22948164-475c-4c4f-9898-8b74216cef47",
+            "Value": {
+                "id": "4ab1a241-8ac7-46d6-80ef-0eab1ac6a154",
+                "resourcePath": "scripts\\EaseInOutQuad\\EaseInOutQuad.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -175,6 +231,14 @@
             }
         },
         {
+            "Key": "22b50820-e558-4b86-b7df-248482147176",
+            "Value": {
+                "id": "5f01521b-112c-495c-8d21-6db1011a14d4",
+                "resourcePath": "scripts\\EaseInOutExpo\\EaseInOutExpo.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "25b1e529-2067-4651-b921-19def221291a",
             "Value": {
                 "id": "6b60edd3-14e0-47e7-bd3a-036d33434c50",
@@ -188,6 +252,14 @@
                 "id": "ef7a80ad-dd34-4ac8-b238-652f946955cc",
                 "resourcePath": "objects\\obj_frog_attack_hitbox\\obj_frog_attack_hitbox.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2a80d82e-205a-4466-8e8b-9b001d1a5945",
+            "Value": {
+                "id": "2edfec46-9c82-48be-af4d-e4b1bb0cbda3",
+                "resourcePath": "scripts\\EaseOutQuad\\EaseOutQuad.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -223,6 +295,14 @@
             }
         },
         {
+            "Key": "30d9c845-1881-40b2-a519-936b0bcdba6f",
+            "Value": {
+                "id": "36e47d3c-a8c6-4851-8c51-06eeadf948f4",
+                "resourcePath": "scripts\\EaseInQuad\\EaseInQuad.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "31cb52d4-b0dd-4e64-baec-745dd9ba1f2c",
             "Value": {
                 "id": "6d736cf3-a23e-4964-bdea-cbce76d702cd",
@@ -243,6 +323,14 @@
             "Value": {
                 "id": "9a093f02-45d6-4988-92ff-bfe042e9890b",
                 "resourcePath": "scripts\\bug_chase_state\\bug_chase_state.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "374f316b-aaf5-4b19-b469-1598d1b588d5",
+            "Value": {
+                "id": "6ffec02a-7e0d-4fc9-88b3-672e7f2be23f",
+                "resourcePath": "scripts\\EaseOutBack\\EaseOutBack.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -319,6 +407,14 @@
             }
         },
         {
+            "Key": "428843d0-c514-4f42-8bc1-9db347e6d4cf",
+            "Value": {
+                "id": "f99f7f6d-5deb-459b-881f-14a93f159fb9",
+                "resourcePath": "scripts\\EaseOutQuart\\EaseOutQuart.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4401c390-2c6b-410c-b0ee-3618d83c495f",
             "Value": {
                 "id": "f683866d-1316-4394-ab7f-a69a9eaad5d2",
@@ -375,6 +471,14 @@
             }
         },
         {
+            "Key": "4b892569-de6a-4869-85d9-8d18ccdd77e4",
+            "Value": {
+                "id": "e244a689-96ff-4833-a579-f60235ac7673",
+                "resourcePath": "scripts\\EaseOutBounce\\EaseOutBounce.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4bf9a13e-3c95-4f2a-8c0d-a5d8c02f4365",
             "Value": {
                 "id": "29b0e793-b58e-4170-b658-b5bd0d8e9637",
@@ -415,11 +519,27 @@
             }
         },
         {
+            "Key": "560f48e1-ed14-452e-b240-91611155d3af",
+            "Value": {
+                "id": "30b1c1db-9c73-4295-9ac6-2b9040f170cd",
+                "resourcePath": "scripts\\EaseInQuint\\EaseInQuint.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "56fbeb4b-bac3-47a0-9416-68240ef09470",
             "Value": {
                 "id": "9059b782-9be0-47bd-a2ee-86e672b1a6b6",
                 "resourcePath": "views\\56fbeb4b-bac3-47a0-9416-68240ef09470.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "57ac4704-2ca6-4c53-94dc-b679115c7c59",
+            "Value": {
+                "id": "3794925d-fbe1-4668-b20a-24568a1cc8e1",
+                "resourcePath": "scripts\\EaseInBack\\EaseInBack.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -508,6 +628,14 @@
                 "id": "c86e522d-074a-419d-bb81-49d93f892345",
                 "resourcePath": "sprites\\spr_chest\\spr_chest.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "66da5af7-b772-44d7-ad20-f76b03878039",
+            "Value": {
+                "id": "8043eee0-522f-4087-8ecc-63958dba1299",
+                "resourcePath": "scripts\\EaseInOutQuint\\EaseInOutQuint.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -607,6 +735,14 @@
             }
         },
         {
+            "Key": "792567a3-a4e4-47b0-b0d2-99c6e2d98b12",
+            "Value": {
+                "id": "a1ac789f-e5e1-4de8-8b11-d04c9af91578",
+                "resourcePath": "scripts\\EaseInExpo\\EaseInExpo.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7a78ef2a-41d6-4cfb-89d0-39c5b61c4330",
             "Value": {
                 "id": "1fc058c1-eec8-4f90-8a9f-fc7bb457ff52",
@@ -631,6 +767,14 @@
             }
         },
         {
+            "Key": "7e6bb75e-412e-4720-997c-a891577bbff3",
+            "Value": {
+                "id": "91b00a8b-fe80-498a-b907-3162542c8a05",
+                "resourcePath": "scripts\\EaseOutCubic\\EaseOutCubic.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7f17c0b9-8d4f-49fe-8448-b38120d6a9b8",
             "Value": {
                 "id": "bb78818e-4df2-46e3-8517-51ed1f84116a",
@@ -639,11 +783,27 @@
             }
         },
         {
+            "Key": "7f5ed8da-06f3-4a9f-b63a-444266e1a6e3",
+            "Value": {
+                "id": "43f1fe91-cf38-4640-bc16-8287535bbe98",
+                "resourcePath": "scripts\\EaseInElastic\\EaseInElastic.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "80af8ac5-5c39-44b8-b002-57ea3a917b50",
             "Value": {
                 "id": "49d44b1b-0dcb-414a-92c7-b56e5cb3607b",
                 "resourcePath": "views\\80af8ac5-5c39-44b8-b002-57ea3a917b50.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "83544ca8-19b3-4042-9c4f-3bc65ad7da1a",
+            "Value": {
+                "id": "371da0e2-2b94-405d-85d3-2af83cc29ebc",
+                "resourcePath": "scripts\\EaseInOutBack\\EaseInOutBack.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -659,6 +819,14 @@
             "Value": {
                 "id": "8653a031-6023-4a0c-ae52-3edbc11eb20b",
                 "resourcePath": "sprites\\spr_player_idle\\spr_player_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "88a32525-fa14-4681-bfd0-82e18ba31802",
+            "Value": {
+                "id": "d27361bb-b606-47da-ac4b-6c31d671aaff",
+                "resourcePath": "sprites\\spr_main_menu\\spr_main_menu.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -719,6 +887,14 @@
             }
         },
         {
+            "Key": "989328ad-d620-4e0b-83ec-587149f5ee11",
+            "Value": {
+                "id": "7f1288fe-ad15-4e42-b02f-be0e4a36e4e1",
+                "resourcePath": "scripts\\EaseInQuart\\EaseInQuart.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "9b81916b-6aeb-4909-b01f-b6cb682cffdb",
             "Value": {
                 "id": "09e45c03-81a0-4776-94aa-c38c494f46cb",
@@ -731,6 +907,14 @@
             "Value": {
                 "id": "6a0c0fa6-7bab-478b-aca7-ac67963fd810",
                 "resourcePath": "scripts\\on_screen\\on_screen.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "9ee30045-dd3a-42dd-8661-a54a7cd891ac",
+            "Value": {
+                "id": "ddeba75b-e2bb-41ec-92c1-a33d7d3e1663",
+                "resourcePath": "scripts\\EaseInCubic\\EaseInCubic.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -831,6 +1015,14 @@
             }
         },
         {
+            "Key": "b72b9891-4a8b-405b-9a1e-4ff74082c6dd",
+            "Value": {
+                "id": "48c19009-0b0f-4c78-822d-6314ca35c012",
+                "resourcePath": "scripts\\EaseOutQuint\\EaseOutQuint.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b9c28ac1-e4dc-4400-ac14-576fa8098c2d",
             "Value": {
                 "id": "abb1b68f-3790-4170-8682-254a0ac51011",
@@ -863,6 +1055,14 @@
             }
         },
         {
+            "Key": "c0b64e56-168b-43d6-bc12-2eb79424cb6a",
+            "Value": {
+                "id": "4585428b-caa8-4e88-b049-3204fa1d7d35",
+                "resourcePath": "scripts\\EaseInOutQuart\\EaseInOutQuart.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c0fa5bdc-cd91-46d7-b38b-70513e0ce5aa",
             "Value": {
                 "id": "430bc383-a3ec-4d12-9dfa-122ad7c22365",
@@ -887,10 +1087,26 @@
             }
         },
         {
+            "Key": "c6dd37f7-04d1-4cde-93ad-3e76d9a2ca4f",
+            "Value": {
+                "id": "5f58b9c9-16ee-4e7e-970a-3f9123e7351f",
+                "resourcePath": "scripts\\EaseInCirc\\EaseInCirc.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c9ab1e7e-61f4-4694-b738-3946a56dce7c",
             "Value": {
                 "id": "f8e79b67-4306-49bf-aef9-0d12d0683f5c",
                 "resourcePath": "scripts\\player_walk_state\\player_walk_state.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ca6e1bef-40a4-46b8-bf4d-ffc39782a3b1",
+            "Value": {
+                "id": "e54f4f4f-3b61-4c0d-9a70-56429bbbce40",
+                "resourcePath": "scripts\\EaseOutExpo\\EaseOutExpo.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -959,11 +1175,27 @@
             }
         },
         {
+            "Key": "d688a48f-706f-4bd4-93a4-a12d5bcbcd4b",
+            "Value": {
+                "id": "6f5409cf-ce03-4d0e-b6dd-c0043d39a727",
+                "resourcePath": "scripts\\EaseInOutElastic\\EaseInOutElastic.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d7731f9f-c5f7-4a73-a732-8373727edc96",
             "Value": {
                 "id": "b1c391a5-571a-4ec6-bfce-fad72dbe691b",
                 "resourcePath": "views\\d7731f9f-c5f7-4a73-a732-8373727edc96.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d9bf4f74-d457-4d9b-9eea-427f6652c137",
+            "Value": {
+                "id": "4e706d94-cab1-43e2-ad50-a3d2af954643",
+                "resourcePath": "scripts\\EaseInOutCubic\\EaseInOutCubic.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1007,6 +1239,14 @@
             }
         },
         {
+            "Key": "e406f58c-6bd3-4f47-9453-91b6053fd6b1",
+            "Value": {
+                "id": "bcd5e417-ffb0-4f78-a509-c3aefb9048d8",
+                "resourcePath": "scripts\\EaseInOutCirc\\EaseInOutCirc.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e64a657f-f5a0-49e0-aedd-b6aeb8bc1af2",
             "Value": {
                 "id": "580fb4e0-92fb-4070-a951-ff28674a0898",
@@ -1039,11 +1279,27 @@
             }
         },
         {
+            "Key": "ec82477d-bfdb-46d7-ba78-55a794269aa2",
+            "Value": {
+                "id": "791e9f08-a2d4-4efd-8623-13d42f0ea6ac",
+                "resourcePath": "scripts\\EaseInOutBounce\\EaseInOutBounce.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ecc172a5-1df1-4cb4-aa9e-b86dd6d0fa76",
             "Value": {
                 "id": "3ef38939-52bf-4413-b7aa-0dd36842bf29",
                 "resourcePath": "sprites\\spr_tile_collisions\\spr_tile_collisions.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ed2e9b67-7fc0-42a7-a385-9fd4481de661",
+            "Value": {
+                "id": "cca3874e-760b-4664-b485-4fb4beb936c5",
+                "resourcePath": "rooms\\rm_menu\\rm_menu.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1095,10 +1351,26 @@
             }
         },
         {
+            "Key": "fa5882b8-fc18-42ef-a00a-957b5b687528",
+            "Value": {
+                "id": "032f7bfb-50f7-4670-995e-b3f36da14250",
+                "resourcePath": "scripts\\EaseInBounce\\EaseInBounce.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fb8abd81-4166-45ab-acbb-405c2ffc4c1f",
             "Value": {
                 "id": "84bebe2a-e2fd-4e29-bb8c-d9bd85a8f68f",
                 "resourcePath": "scripts\\process_enemy_attack\\process_enemy_attack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "fe8c682e-1a10-4768-aa7b-cf039481549f",
+            "Value": {
+                "id": "2d570898-469e-4056-b123-38f6aa80932b",
+                "resourcePath": "scripts\\EaseOutElastic\\EaseOutElastic.yy",
                 "resourceType": "GMScript"
             }
         },

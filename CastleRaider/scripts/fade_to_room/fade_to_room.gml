@@ -8,8 +8,8 @@
 var fade = instance_create_layer(x, y, "Fade", obj_fade);
 with(obj_fade) {
 	target_room = argument0;
-	target_x = argument1;
-	target_y = argument2;
-	facing = argument3;
-	colour = argument4;
+	target_x	= argument1;
+	target_y	= argument2;
+	facing		= argument3;
+	colour		= argument4;
 }

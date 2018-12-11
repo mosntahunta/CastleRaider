@@ -2,63 +2,76 @@
 // get gui dimensions
 var gw = display_get_gui_width();
 var gh = display_get_gui_height();
+if room != rm_menu {
+	// gems
+	#region
+	draw_set_font(font_stats);
+	draw_set_halign(fa_left);
+	draw_set_valign(fa_middle);
+	var colour = make_color_rgb(173, 144, 159);
+	draw_set_color(colour);
+	#endregion
 
-// gems
-draw_set_font(font_stats);
-draw_set_halign(fa_left);
-draw_set_valign(fa_middle);
-var colour = make_color_rgb(173, 144, 159);
-draw_set_color(colour);
+	// set draw location
+	#region
+	var xx = gw - 92;
+	var yy = 2;
 
-// set draw location
-var xx = gw - 92;
-var yy = 2;
+	draw_sprite(spr_gem_gui, 0, xx, yy);
+	#endregion
 
-draw_sprite(spr_gem_gui, 0, xx, yy);
+	// text
+	#region
+	var text_xx = 7;
+	var text_yy = 22;
+	draw_set_color(c_black);
+	draw_text(xx + text_xx + 1, yy + text_yy + 1, obj_player.gems );
+	draw_set_color(colour);
+	draw_text(xx + text_xx, yy + text_yy, obj_player.gems );
+	#endregion
 
-// text
-var text_xx = 7;
-var text_yy = 22;
-draw_set_color(c_black);
-draw_text(xx + text_xx + 1, yy + text_yy + 1, obj_player.gems );
-draw_set_color(colour);
-draw_text(xx + text_xx, yy + text_yy, obj_player.gems );
+	// hp bar
+	#region
+	xx = 48;
+	yy = 25;
 
-// hp bar
-xx = 48;
-yy = 25;
+	// draw red bar
+	draw_sprite(spr_hp_bar, 1, xx, yy);
+	draw_sprite_ext(spr_hp_bar, 2, xx, yy, obj_player.hp / obj_player.max_hp, 1, 0, c_white, image_alpha);
+	draw_sprite(spr_hp_bar, 0, xx, yy);
+	#endregion
 
-// draw red bar
-draw_sprite(spr_hp_bar, 1, xx, yy);
-draw_sprite_ext(spr_hp_bar, 2, xx, yy, obj_player.hp / obj_player.max_hp, 1, 0, c_white, image_alpha);
-draw_sprite(spr_hp_bar, 0, xx, yy);
-
-// lives
-xx = 48;
-yy = 32;
-var gap = 22;
-if lives > 0 {
-	// draw number of lives
-	for (var i = 0; i < lives; i++) {
-		draw_sprite(spr_lives, 0, xx + i * gap, yy);
+	// lives
+	#region
+	xx = 48;
+	yy = 32;
+	var gap = 22;
+	if lives > 0 {
+		// draw number of lives
+		for (var i = 0; i < lives; i++) {
+			draw_sprite(spr_lives, 0, xx + i * gap, yy);
+		}
 	}
-}
+	#endregion
 
-// score
-xx = gw / 2;
-yy = 11;
-draw_sprite(spr_score, 0, xx, yy);
-draw_set_halign(fa_right);
-text_xx = 54;
-text_yy = 14;
-// draw shadow
-draw_set_color(c_black);
-draw_text(xx + text_xx + 1, yy + text_yy + 1, score );
-// draw text
-draw_set_color(colour);
-draw_text(xx + text_xx, yy + text_yy, score );
+	// score
+	#region
+	xx = gw / 2;
+	yy = 11;
+	draw_sprite(spr_score, 0, xx, yy);
+	draw_set_halign(fa_right);
+	text_xx = 54;
+	text_yy = 14;
+	// draw shadow
+	draw_set_color(c_black);
+	draw_text(xx + text_xx + 1, yy + text_yy + 1, score );
+	// draw text
+	draw_set_color(colour);
+	draw_text(xx + text_xx, yy + text_yy, score );
+	#endregion
 
-// game over
+	// game over
+	#region
 if game_over_lose {
 	// center the gui
 	var mx = gw / 2;
@@ -122,3 +135,31 @@ if game_over_lose {
 		}
 	}
 }
+#endregion
+} else {
+	// draw main menu and fade to first level
+	var start_y = 350;
+	var factor = start_y;
+	var max_frames = 60; // length of animation
+	
+	if current_frame < max_frames {
+		current_frame++;
+		var move = EaseOutBounce(current_frame, 0, 1, max_frames);
+	} else {
+		move = 1;
+		// allow game start as menu has dropped
+		if (keyboard_check_pressed(vk_space) or gamepad_button_check_pressed(0, gp_face1)) and !instance_exists(obj_fade) {
+			fade_to_room(rm_00, 0, 0, 1, c_black);
+		}
+	}
+	draw_sprite(spr_main_menu, 0, 0, (move * factor) - start_y);
+}
+
+// fade screen in
+if fade_in {
+	alpha = lerp(alpha, 0, fade_speed);
+	draw_set_alpha(alpha);
+	draw_rectangle_color(0, 0, gw, gh, c_black, c_black, c_black, c_black, false);
+	draw_set_alpha(1);
+}
+	

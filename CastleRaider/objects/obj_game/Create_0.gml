@@ -17,3 +17,11 @@ game_over_lose = false;
 
 // game over and we won
 game_over_won = false;
+
+// main menu
+current_frame = 0;
+
+// fade in the menu
+fade_in = true;
+alpha = 1;
+fade_speed = 0.02;
