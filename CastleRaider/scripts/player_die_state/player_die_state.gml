@@ -24,14 +24,9 @@ if (image_index >= image_number - 1) {
 	} else {
 		get_input();
 		if jump or attack {
-			room_restart();
-			// reset player
-			x = room_start_position_x;
-			y = room_start_position_y;
-			facing = room_start_facing;
-			state = states.IDLE;
-			image_speed = 1;
-			hp = max_hp;
+			// start fading to black when restarting
+			fade_to_room(room, room_start_position_x, room_start_position_y, room_start_facing, c_black);
+			
 			// allow instant camera panning
 			with(obj_camera) {
 				camera_pan_speed = 1;
