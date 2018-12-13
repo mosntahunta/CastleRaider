@@ -1071,6 +1071,14 @@
             }
         },
         {
+            "Key": "bfe16fbd-7497-4aea-b98c-56c7b6ec5270",
+            "Value": {
+                "id": "3e2e3c40-43bd-4f13-9600-4bc33e1aa3c6",
+                "resourcePath": "fonts\\font_bookman\\font_bookman.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "c0576ad6-2f6b-4d17-bf8b-ecfede5eeb8c",
             "Value": {
                 "id": "bf990e51-cee0-44a8-9851-54d14efa34f2",

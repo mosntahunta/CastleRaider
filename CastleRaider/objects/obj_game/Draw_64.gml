@@ -112,6 +112,13 @@ if game_over_lose {
 	var total_score = score + gems_total + lives_total;
 	text[11] = total_score;
 	
+	if total_score > highscore {
+		highscore = total_score;
+		ini_open(save_name);
+		ini_write_real("Score", "Highscore", highscore);
+		ini_close();
+	}
+	
 	// set starting position
 	var xx = mx - 10;
 	var yy = my - 32;
@@ -153,6 +160,13 @@ if game_over_lose {
 		}
 	}
 	draw_sprite(spr_main_menu, 0, 0, (move * factor) - start_y);
+	
+	// draw the high score
+	if current_frame == max_frames {
+		draw_set_halign(fa_right);
+		draw_set_font(font_bookman);
+		draw_text_ext_color(gw - 10, 28, highscore, 5, 100, c_aqua, c_aqua, c_gray, c_gray, 1);
+	}
 }
 
 // fade screen in
