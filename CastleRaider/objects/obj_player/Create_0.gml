@@ -27,8 +27,8 @@ gems = 0;
 gems_value = 50;
 
 ///< set room 0 start position
-room_start_position_x = 65;
-room_start_position_y = 127;
+room_start_position_x = 20;
+room_start_position_y = 575;
 room_start_facing = 1; // to the right
 
 x = room_start_position_x;

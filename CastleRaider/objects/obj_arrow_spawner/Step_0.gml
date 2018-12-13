@@ -4,6 +4,8 @@ if on_screen(global.tile_size) {
 	if can_fire {
 		can_fire = false;
 		
+		fire_delay = fire_delay_init;
+		
 		// set spawn position from the centre
 		var ypos = (sprite_get_height(sprite_index) / 2 - 2) * spawn_pos;
 		
@@ -21,8 +23,8 @@ if on_screen(global.tile_size) {
 		fire_delay--;
 		if fire_delay <= 0 {
 			can_fire = true;
-			fire_delay = fire_delay_init;
 		}
 	}
-	
+} else {
+	fire_delay--;
 }

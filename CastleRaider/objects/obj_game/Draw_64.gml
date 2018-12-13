@@ -156,7 +156,7 @@ if game_over_lose {
 		move = 1;
 		// allow game start as menu has dropped
 		if (keyboard_check_pressed(vk_space) or gamepad_button_check_pressed(0, gp_face1)) and !instance_exists(obj_fade) {
-			fade_to_room(rm_00, 0, 0, 1, c_black);
+			fade_to_room(room_next(room), 0, 0, 1, c_black);
 		}
 	}
 	draw_sprite(spr_main_menu, 0, 0, (move * factor) - start_y);
