@@ -14,6 +14,8 @@
 // attack
 #macro CAN_ATTACK 0
 
+// enemy parent
+#macro SPAWN 4
 // frog
 #macro INHALE 1
 #macro HURT 2
