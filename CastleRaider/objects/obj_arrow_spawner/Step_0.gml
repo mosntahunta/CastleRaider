@@ -19,6 +19,8 @@ if on_screen(global.tile_size) {
 		if facing var side = bbox_right else var side = bbox_left;
 		var inst = instance_create_layer(side, y + ypos, "arrow_shoot", obj_arrow_spark);
 		inst.image_xscale = facing;
+		
+		audio_play_sound(snd_arrow_firing, 10, false);
 	} else {
 		fire_delay--;
 		if fire_delay <= 0 {

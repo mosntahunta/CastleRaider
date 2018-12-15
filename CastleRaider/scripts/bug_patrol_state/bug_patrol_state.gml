@@ -22,6 +22,7 @@ if t1 == SOLID {
 // chase
 if distance_to_object(obj_player) < chase_distance and obj_player.hp > 0 {
 	state = bug_states.CHASE;
+	audio_play_sound(snd_bug_sees_player, 40, false);
 }
 
 // apply movements

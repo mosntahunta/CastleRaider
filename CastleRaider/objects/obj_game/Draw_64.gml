@@ -165,6 +165,7 @@ if room != rm_menu {
 		move = 1;
 		// allow game start as menu has dropped
 		if (keyboard_check_pressed(vk_space) or gamepad_button_check_pressed(0, gp_face1)) and !instance_exists(obj_fade) {
+			audio_play_sound(snd_game_start, 15, false);
 			fade_to_room(room_next(room), 0, 0, 1, c_black);
 		}
 	}

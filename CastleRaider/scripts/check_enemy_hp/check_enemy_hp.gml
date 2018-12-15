@@ -4,7 +4,14 @@ if (hp <= 0) {
 	
 	if _chance <= hp_drop_chance {
 		instance_create_layer(x, bbox_top, "Gems", obj_hp);
+		audio_play_sound(snd_hp_spawning, 15, false);
 	}
+	
+	// death sound
+	audio_play_sound(snd_enemy_dying, 10, false);
+	
+	// gem spawn sound
+	audio_play_sound(snd_gems_spawning, 15, false);
 	
 	repeat(death_gem_value) {
 		instance_create_layer(x, bbox_top, "Gems", obj_gem);

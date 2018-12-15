@@ -41,6 +41,8 @@ if (obj_player.hp > 0 and !hurt) {
 		image_index = 0;
 		
 		scr_screen_shake(.125, -1);
+		
+		audio_play_sound(snd_player_hit, 40, false);
 	} else {
 		// blocking damage
 		if (state != states.KNOCKBACK) {
@@ -55,6 +57,8 @@ if (obj_player.hp > 0 and !hurt) {
 			horizontal_speed = sign(x - other.x) * block_knockback;
 			
 			scr_screen_shake(.125, -1);
+			
+			audio_play_sound(snd_block, 40, false);
 			
 			// enemy gets knocked back to
 			

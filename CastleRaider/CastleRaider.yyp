@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "2926083c-b16a-4486-bb28-a0b2f045985d",
+            "Value": {
+                "id": "041e836f-0f7e-4208-921d-e9e034858cad",
+                "resourcePath": "sounds\\snd_mus_middle_park\\snd_mus_middle_park.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "29a3658d-0e5b-43d7-a694-e09071d19eb5",
             "Value": {
                 "id": "a438522f-17ce-4dd5-8d96-cb7bc5d3219b",
@@ -1012,6 +1020,14 @@
                 "id": "d27361bb-b606-47da-ac4b-6c31d671aaff",
                 "resourcePath": "sprites\\spr_main_menu\\spr_main_menu.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "88b5f012-0951-4d5e-8f93-9cfec81e0221",
+            "Value": {
+                "id": "f2953a7f-b789-476c-9614-e6da2ba81647",
+                "resourcePath": "sounds\\snd_mus_game_end\\snd_mus_game_end.yy",
+                "resourceType": "GMSound"
             }
         },
         {
