@@ -20,6 +20,8 @@ if (image_index >= image_number - 1) {
 	if lives <= 0 {
 		obj_game.game_over_lose = true;
 	} else {
+		// restart message
+		show_msg("Press jump to restart", 1);
 		get_input();
 		if jump or attack {
 			// start fading to black when restarting
