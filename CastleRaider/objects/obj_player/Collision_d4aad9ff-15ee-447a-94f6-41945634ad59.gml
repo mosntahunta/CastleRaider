@@ -17,7 +17,15 @@ if other.stage != 999 {
 		show_msg(_msg, 4);
 	}
 } else {
-	// give the player a message
-	show_msg(_msg, 4);
+	// game end
+	if obj_chest.open {
+		obj_game.game_over_won = true;
+		fade_to_room(rm_game_end, 0, 0, 1, c_black);
+		state = states.GAME_END;
+		instance_destroy(other);
+	} else {
+		// give the player a message
+		show_msg(_msg, 4);
+	}
 }
 	

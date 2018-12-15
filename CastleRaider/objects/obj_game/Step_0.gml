@@ -1,12 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if mouse_check_button_pressed(mb_left) {
-	repeat(3) {
-		instance_create_layer(mouse_x, mouse_y, "Gems", obj_gem);
-	}
-}
-
 if mouse_check_button_pressed(mb_right) {
 	if instance_exists(obj_player) obj_player.hp = 0;
 }
@@ -18,4 +12,9 @@ if game_over_lose {
 			game_restart();
 		}
 	}
+}
+
+// reduce delay time in game over room
+if game_over_won {
+	game_over_won_delay--;
 }

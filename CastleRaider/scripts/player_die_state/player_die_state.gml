@@ -16,10 +16,8 @@ if( abs(horizontal_speed) <= 0.1 ) horizontal_speed = 0;
 
 // check state after animation
 if (image_index >= image_number - 1) {
-	show_debug_message("dying");
 	image_speed = 0;
 	if lives <= 0 {
-		show_debug_message("lose");
 		obj_game.game_over_lose = true;
 	} else {
 		get_input();

@@ -34,9 +34,12 @@ if fade_to_colour {
 				hp = max_hp;
 			}
 			
-			// change start and update animation
-			state = states.IDLE;
-			animation();
+			// ensure we stay in game end state
+			if state != states.GAME_END {
+				// change start and update animation
+				state = states.IDLE;
+				animation();
+			}
 		}
 		// pan the camera quickly
 		obj_camera.camera_pan_speed = 1;
