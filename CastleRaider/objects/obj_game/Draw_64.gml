@@ -177,3 +177,12 @@ if fade_in {
 	draw_set_alpha(1);
 }
 	
+// display message
+if alarm[DISPLAY_MSG] > 0 {
+	draw_set_halign(fa_center);
+	draw_set_font(font_bookman);
+	draw_set_color(c_black);
+	draw_text(gw / 2 + 1, gh * 0.85 + 1, msg);
+	draw_set_color(c_white);
+	draw_text(gw / 2, gh * 0.85, msg);
+}
