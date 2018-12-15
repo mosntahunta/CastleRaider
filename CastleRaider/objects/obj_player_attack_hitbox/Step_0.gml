@@ -28,6 +28,9 @@ with (obj_enemy_parent) {
 				
 				scr_screen_shake(.1, 1.5);
 				
+				// sound
+				if !audio_is_playing(snd_sword_hit) audio_play_sound(snd_sword_hit, 10, false);
+				
 				var create = true;
 				
 				if (instance_exists(obj_sword_hit)) {

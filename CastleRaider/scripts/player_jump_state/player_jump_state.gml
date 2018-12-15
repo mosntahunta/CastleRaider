@@ -22,6 +22,7 @@ if( on_ground() ) {
 	// create dust if landing
 	if( vertical_speed > 0 ) {
 		instance_create_layer(x, y, "Dust", obj_player_dust_land);
+		audio_play_sound(snd_landing, 20, false);
 	}
 }
 

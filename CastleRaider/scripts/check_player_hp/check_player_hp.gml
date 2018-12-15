@@ -7,4 +7,5 @@ if hp <= 0 {
 	scale_y = 1;
 	
 	lives--;
+	audio_play_sound(snd_player_die, 10, false);
 }

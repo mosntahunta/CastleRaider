@@ -14,4 +14,5 @@ if (number_of_jumps > 0) {
 	vertical_speed = jump_speed;
 	number_of_jumps--;
 	jump_dust();
+	audio_play_sound(snd_jump, 15, false);
 }

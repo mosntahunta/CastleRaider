@@ -10,6 +10,7 @@ if !other.die {
 			if down {
 				// blocking and crouching
 				other.die = true;
+				audio_play_sound(snd_block, 15, false);
 			} else {
 				// blocking and not crouching
 				take_damage = true;
@@ -31,6 +32,8 @@ if !other.die {
 			hp--;
 			alarm[HURT] = hurt_time;
 			scr_screen_shake(.125, -1);
+			
+			audio_play_sound(snd_player_hit, 20, false);
 		} else {
 			other.die = true;
 		}

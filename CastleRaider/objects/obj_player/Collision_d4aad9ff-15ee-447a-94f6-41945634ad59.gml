@@ -9,8 +9,15 @@ if other.stage != 999 {
 	// destroy trigger
 	instance_destroy(other);
 	
+	audio_play_sound(snd_enemies_spawn, 30, false);
+	
+	// close door
 	if other.stage == 5 and !obj_chest.open {
 		var layer_id = layer_get_id("Door");
+		
+		if layer_get_visible(layer_id) {
+			audio_play_sound(snd_door_opening_closing, 50, false);
+		}
 		layer_set_visible(layer_id, false);
 		
 		// give the player a message
